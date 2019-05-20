@@ -97,7 +97,8 @@ html {
 	position: absolute;
 	color: white;
 	top: 0rem;
-	left: 73%;
+	left: 50%;
+	transform: translate(80%,0%);
 	font-size: 2rem;
 	list-style-type: none;
 	text-decoration: none;
