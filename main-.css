@@ -97,15 +97,15 @@ html {
 	position: absolute;
 	color: white;
 	top: 0rem;
-	left: 50%;
-	transform: translate(80%,0%);
+	left: 60%;
+	transform: translate(50%,0%);
 	font-size: 2rem;
 	list-style-type: none;
 	text-decoration: none;
 } 
 @media screen and (max-width:1100px){
 	.navigation_bar {
-		left:60%;
+		left:40%;
 	}
 }
 li {
