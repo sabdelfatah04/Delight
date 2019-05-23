@@ -63,7 +63,7 @@ html {
 	top: 40%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	animation: fadein 8s;
+	animation: fadein 5s;
 }
 @keyframes fadein  {
     from { opacity: 0; }
@@ -97,17 +97,12 @@ html {
 	position: absolute;
 	color: white;
 	top: 0rem;
-	left: 60%;
-	transform: translate(50%,0%);
+	left: 0%;
+	transform: translate(0%,0%);
 	font-size: 2rem;
 	list-style-type: none;
 	text-decoration: none;
 } 
-@media screen and (max-width:1100px){
-	.navigation_bar {
-		left:40%;
-	}
-}
 li {
 	display: block;
 	float: left;
@@ -132,27 +127,26 @@ li {
 	}
 }
 .overlay {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: rgba(0, 0, 0, .7);
-	transition: opacity 500ms;
-	visibility: hidden;
-	opacity: 0;
-}
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+ }
 .overlay:target {
+	position: absolute;
 	visibility: visible;
 	opacity: 1;
+	height: 20rem;
 }
 .popup {
 	margin: 3rem auto;
 	padding: 3rem;
 	background-image: url(img/popup.jpg);
 	border-radius: 5px;
-	width: 85%;
-	height: auto;
+	width: 85rem;
 	position: relative;
 }
 .popup h2 {
@@ -189,9 +183,9 @@ li {
 	font-size: 2.8rem;
 	color: black;
 	background-color: white;
-	left: 50%;
 	padding: 1rem;
     border-radius: 2rem;
+    max-height:30rem; 
 }
 
 .about {
